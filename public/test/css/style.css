@@ -1,0 +1,25 @@
+* { margin: 0; padding: 0; }
+html { font-family: sans-serif; }
+body { background-color: #333; }
+.container {
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #666;
+}
+ul > li {
+    display: inline-block;
+    padding: 32px;
+}
+form {
+    margin: 18px 0 55px 0;
+}
+
+[type="text"], [type="submit"] {
+    padding: 4px;
+}
+
+

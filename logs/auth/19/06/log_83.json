@@ -1,0 +1,35 @@
+[
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "date": "20190623205733",
+            "code": -30,
+            "exception": "PDOException",
+            "file": "C:\\xampp\\htdocs\\workspace\\gestionale-custom\\app\\models\\SignupConfirm.php",
+            "line": 97,
+            "function": "execute",
+            "class": "PDOStatement"
+        },
+        "body": {
+            "message": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'role' in 'field list'"
+        }
+    },
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "date": "20190623212129",
+            "code": -10,
+            "exception": "Exception",
+            "file": "C:\\xampp\\htdocs\\workspace\\gestionale-custom\\app\\models\\SignupConfirm.php",
+            "line": 37,
+            "function": "__construct",
+            "class": "App\\Models\\SignupConfirm"
+        },
+        "body": {
+            "dom": "email",
+            "message": "Questo account è già stato attivato."
+        }
+    }
+]

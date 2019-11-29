@@ -1,0 +1,22 @@
+# Guida: https://gist.github.com/redeluni/9e55c7a24c8d4a2927b29fb81d8138db
+# Redirect to front controller
+# RewriteEngine On
+# RewriteBase /
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond $1 !^(app|config|core|db|helpers|layouts|logs|reference|vendor|robots\.txt)
+
+# RewriteRule ^ public/index.php [QSA,L]
+
+
+
+# RewriteRule ^$ public/ [L]
+# RewriteRule (.*) public/$1 [L]
+
+
+
+
+
+
+
+

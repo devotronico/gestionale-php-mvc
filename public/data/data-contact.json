@@ -1,0 +1,39 @@
+[
+    {
+        "field": "nome",
+        "tag": "input",
+        "type": "text",
+        "textLen": "32"
+    },
+    {
+        "field": "cognome",
+        "tag": "input",
+        "type": "text",
+        "textLen": "32"
+    },
+    {
+        "field": "tel",
+        "tag": "input",
+        "type": "tel",
+        "textLen": "16"
+    },
+    {
+        "field": "email",
+        "tag": "input",
+        "type": "email",
+        "textLen": "32"
+    },
+    {
+        "field": "scrivi",
+        "tag": "textarea",
+        "type": "text",
+        "textLen": "300"
+    },
+    {
+        "field": "invia",
+        "tag": "input",
+        "type": "submit",
+        "textLen": "null"
+    }
+]
+

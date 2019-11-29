@@ -1,0 +1,53 @@
+[
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "request": "NORMAL",
+            "date": "20190719195426",
+            "code": -50,
+            "exception": "Exception",
+            "file": "C:\\xampp_7_3_6\\htdocs\\workspace\\gestionale-custom\\core\\HTTP.php",
+            "line": 57,
+            "function": "sync",
+            "class": "Core\\HTTP"
+        },
+        "body": {
+            "message": "HTTP Error: 127.0.0.1"
+        }
+    },
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "request": "NORMAL",
+            "date": "20190719195700",
+            "code": -50,
+            "exception": "Exception",
+            "file": "C:\\xampp_7_3_6\\htdocs\\workspace\\gestionale-custom\\core\\HTTP.php",
+            "line": 57,
+            "function": "sync",
+            "class": "Core\\HTTP"
+        },
+        "body": {
+            "message": "HTTP Error: 127.0.0.1"
+        }
+    },
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "request": "NORMAL",
+            "date": "20190719200411",
+            "code": -50,
+            "exception": "Exception",
+            "file": "C:\\xampp_7_3_6\\htdocs\\workspace\\gestionale-custom\\core\\HTTP.php",
+            "line": 57,
+            "function": "sync",
+            "class": "Core\\HTTP"
+        },
+        "body": {
+            "message": "HTTP Error: 127.0.0.1"
+        }
+    }
+]

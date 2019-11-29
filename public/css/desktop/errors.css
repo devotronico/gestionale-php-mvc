@@ -1,0 +1,112 @@
+
+/* Sfondo trasparente fullscreen */
+.error__wrapper{
+  z-index:10000;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.5);
+}
+
+/* <BOX> */
+.error__box {
+  padding: 8px 8px 0 0;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: flex-start;
+  width: 500px;
+  margin: 100px auto;
+  border: 1px solid rgba(0,0,0,.5);
+  background: #A40808;
+  /* background: hsla(0, 91%, 24%, 1); */
+  /* background: red; */
+  /* background-color: blue; */
+}
+/* .error__box.success { background-color: green; } */
+/* .error__box.error { background-color: red; } */
+/* </BOX> */
+
+
+/* <BUTTON-CLOSE> */
+.error__btn {
+  cursor:pointer;
+  margin-left: 20px;
+  width: 60px;
+  height: 30px;
+  background-color: rgba(255,255,255,.4);
+  border:none;
+  font-size: 16px;
+   /* transition:all 200ms; */
+}
+/* </BUTTON-CLOSE> */
+
+
+/* <TABLE> */
+.error__table {
+  margin-top: 20px;
+  width: 600px;
+  text-align: center;
+  border-collapse: collapse;
+  background: #A40808;
+}
+
+.error__th, .error__td {
+  /* border: 1px solid rgba(0,0,0,.1); */
+  padding: 10px 5px;
+}
+
+.error__thead .error__th { padding: 0; }
+
+.error__th {
+  /* border-right: hidden; */
+  padding: 0 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #A40808;
+}
+
+.error__td {
+  font-size: 14px;
+  background: #F5C8BF;
+}
+
+.error__tfoot .error__td { background: #A40808; }
+/* </TABLE> */
+
+/* <BUTTON> */
+/* .btn {
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.5;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.btn-update {
+padding: 10px; margin: 10px;
+border: 2px solid #007BFF;
+background-color: #007BFF;
+-moz-box-shadow: 0px 4px 0px 0px #005CBF;
+-webkit-box-shadow: 0px 4px 0px 0px #005CBF;
+box-shadow: 0px 4px 0px 0px #005CBF;
+}
+
+.btn-update:hover {
+background-color: #0069d9;
+border: 2px solid #0069d9;
+box-shadow: 0px 4px 0px 0px #005CBF;
+}
+
+.btn-update:active {
+position:relative;
+top:1px;
+box-shadow: 0px 3px 0px 0px #005CBF;
+} */
+/* </BUTTON> */

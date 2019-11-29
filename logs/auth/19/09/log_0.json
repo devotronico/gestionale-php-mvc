@@ -1,0 +1,36 @@
+[
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "request": "NORMAL",
+            "date": "20190911184031",
+            "code": -30,
+            "exception": "PDOException",
+            "file": "C:\\xampp_7_3_6\\htdocs\\workspace\\gestionale-custom\\db\\DBPDO.php",
+            "line": 21,
+            "function": "__construct",
+            "class": "PDO"
+        },
+        "body": {
+            "message": "SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)"
+        }
+    },
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "request": "NORMAL",
+            "date": "20190911184055",
+            "code": -30,
+            "exception": "PDOException",
+            "file": "C:\\xampp_7_3_6\\htdocs\\workspace\\gestionale-custom\\db\\DBPDO.php",
+            "line": 21,
+            "function": "__construct",
+            "class": "PDO"
+        },
+        "body": {
+            "message": "SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)"
+        }
+    }
+]

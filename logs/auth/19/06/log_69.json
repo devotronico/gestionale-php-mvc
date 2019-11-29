@@ -1,0 +1,36 @@
+[
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "date": "20190616160841",
+            "code": 0,
+            "exception": "Exception",
+            "file": "C:\\xampp\\htdocs\\workspace\\gestionale-custom\\core\\Router.php",
+            "line": 154,
+            "function": "callMethod",
+            "class": "Router"
+        },
+        "body": {
+            "dom": "email",
+            "message": "Il metodo error non esiste nella classe App\\Controllers\\HomeController"
+        }
+    },
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "date": "20190616160841",
+            "code": 0,
+            "exception": "Exception",
+            "file": "C:\\xampp\\htdocs\\workspace\\gestionale-custom\\core\\Router.php",
+            "line": 154,
+            "function": "callMethod",
+            "class": "Router"
+        },
+        "body": {
+            "dom": "email",
+            "message": "Il metodo error non esiste nella classe App\\Controllers\\HomeController"
+        }
+    }
+]

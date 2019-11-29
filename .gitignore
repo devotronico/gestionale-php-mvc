@@ -1,0 +1,11 @@
+reference/
+*.txt
+*.png
+*.jpg
+*.jpeg
+*.gif
+/index.php
+*.old.css
+*.old.php
+Email.php
+/vendor/

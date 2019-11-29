@@ -1,0 +1,37 @@
+[
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "date": "20190616105030",
+            "code": -15,
+            "exception": "Exception",
+            "file": "C:\\xampp\\htdocs\\workspace\\gestionale-custom\\app\\Controllers\\SigninController.php",
+            "line": 66,
+            "function": "signinAccess",
+            "class": "App\\Controllers\\SigninController"
+        },
+        "body": [
+            {
+                "dom": "email",
+                "message": "Daniele non è un email valida"
+            }
+        ]
+    },
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "date": "20190616105047",
+            "code": -30,
+            "exception": "PDOException",
+            "file": "C:\\xampp\\htdocs\\workspace\\gestionale-custom\\app\\models\\Signin.php",
+            "line": 58,
+            "function": "execute",
+            "class": "PDOStatement"
+        },
+        "body": {
+            "message": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'roletypee' in 'field list'"
+        }
+    }
+]

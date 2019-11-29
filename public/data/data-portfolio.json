@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Il Sito",
+        "icon": "<i class='fas fa-code'></i>",
+        "info": "Tutto il codice di questo sito è ampiamente commentato ed è liberamente consultabile e scaricabile. Il codice è sottoposto a continuo lavoro di refactoring",
+        "link": "https://github.com/redeluni/blog", 
+        "linkText": "codice"
+    },
+    {
+        "title": "Network",
+        "icon": "<i class='fab fa-connectdevelop'></i>",
+        "info": "Social network di condivisione di immagini in fase di sviluppo. Gli utenti possono pubblicare immagini e compiere varie azioni tra cui la condivisione sui social.",
+        "link": "https://memeinfection.com",
+        "linkText": "visita"
+    },
+    {
+        "title": "Database",
+        "icon": "<i class='fas fa-database'></i>",
+        "info": "App per la gestione di dati immagazzinati in un database mysql. Completo di tutte le funzioni (CRUD), lettura, ricerca, creazione, modifica, cancellazione dei dati.",
+        "link": "https://github.com/redeluni/database-mvc",
+        "linkText": "codice"
+    },
+    {
+        "title": "Pagination",
+        "icon": "<i class='fas fa-file-alt'></i>",
+        "info": "Sistema di paginazione per la navigazione tra pagine di un sito. I dati possono essere prelevati da un database mysql oppure da file json",
+        "link": "https://github.com/redeluni/pagination", 
+        "linkText": "codice"
+    }
+]

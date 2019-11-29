@@ -1,0 +1,45 @@
+[
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "date": "20190629210342",
+            "code": -15,
+            "exception": "Exception",
+            "file": "C:\\xampp_7_3_6\\htdocs\\workspace\\gestionale-custom\\app\\Controllers\\SignupController.php",
+            "line": 50,
+            "function": "store",
+            "class": "App\\Controllers\\SignupController"
+        },
+        "body": [
+            {
+                "dom": "name",
+                "message": "Il campo nome è vuoto"
+            },
+            {
+                "dom": "email",
+                "message": "Il campo email è vuoto"
+            },
+            {
+                "dom": "password",
+                "message": "Il campo password è vuoto"
+            }
+        ]
+    },
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "date": "20190630205256",
+            "code": -30,
+            "exception": "PDOException",
+            "file": "C:\\xampp_7_3_6\\htdocs\\workspace\\gestionale-custom\\db\\DBPDO.php",
+            "line": 21,
+            "function": "__construct",
+            "class": "PDO"
+        },
+        "body": {
+            "message": "SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)"
+        }
+    }
+]

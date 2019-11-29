@@ -1,0 +1,44 @@
+[
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "date": "20190623195228",
+            "code": -15,
+            "exception": "Exception",
+            "file": "C:\\xampp\\htdocs\\workspace\\gestionale-custom\\app\\Controllers\\SignupController.php",
+            "line": 50,
+            "function": "store",
+            "class": "App\\Controllers\\SignupController"
+        },
+        "body": [
+            {
+                "dom": "email",
+                "message": "dssacdsacds non è un email valida"
+            },
+            {
+                "dom": "password",
+                "message": "Il campo password è vuoto"
+            }
+        ]
+    },
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "date": "20190623195239",
+            "code": -15,
+            "exception": "Exception",
+            "file": "C:\\xampp\\htdocs\\workspace\\gestionale-custom\\app\\Controllers\\SignupController.php",
+            "line": 50,
+            "function": "store",
+            "class": "App\\Controllers\\SignupController"
+        },
+        "body": [
+            {
+                "dom": "email",
+                "message": "dssacdsacds non è un email valida"
+            }
+        ]
+    }
+]

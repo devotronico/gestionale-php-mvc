@@ -1,0 +1,36 @@
+[
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "request": "async",
+            "date": "20190714212025",
+            "code": -20,
+            "exception": "Exception",
+            "file": "C:\\xampp_7_3_6\\htdocs\\workspace\\gestionale-custom\\app\\Controllers\\SigninController.php",
+            "line": 73,
+            "function": "signinAccess",
+            "class": "App\\Controllers\\SigninController"
+        },
+        "body": {
+            "message": "HTTP Error"
+        }
+    },
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "request": "async",
+            "date": "20190714213923",
+            "code": -20,
+            "exception": "Exception",
+            "file": "C:\\xampp_7_3_6\\htdocs\\workspace\\gestionale-custom\\app\\Controllers\\SigninController.php",
+            "line": 73,
+            "function": "signinAccess",
+            "class": "App\\Controllers\\SigninController"
+        },
+        "body": {
+            "message": "HTTP Error"
+        }
+    }
+]

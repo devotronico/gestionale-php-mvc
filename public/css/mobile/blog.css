@@ -1,0 +1,57 @@
+/* route = [/blog/] */
+/* tpl   = [blog.posts, blog.aside, blog.pagination, blog.footer] */
+@media screen and (orientation: portrait) {   
+@media(min-width:0){}
+@media(min-width:230px){
+/* BLOG */
+main{min-height:100%;display:flex;flex-direction:column;font-size:0.7rem;background-color:#fff}
+#posts{order:1} 
+aside{order:3;display:flex;flex-direction:row;justify-content:space-around;flex-wrap: wrap}
+#pagination{order:2}
+footer{order:4;flex-basis:100%} 
+/* POSTS */
+#posts{padding:0 .5rem} 
+.post{padding-top:0.5rem} 
+h1{font-size:1rem}
+.title, .author, .mailto, .read{text-decoration:none;color:#3399ff}
+.messtruncate{display:none}
+.comment-num{margin:0}
+ hr{margin-top:.5rem;opacity:.5}
+/* ASIDE */
+.aside-box{width:200px;padding-bottom:4rem;} /* flex-basis:30%; */
+.aside-title{background-color:#ccffff}
+.aside-year{margin-top:1rem;}
+.aside-list{padding-left:1rem;list-style-type:none;}
+.aside-link{color:#3399ff;text-decoration:none;line-height:1.5}  
+/* PAGINATION */ 
+#pagination{padding:.5rem}
+#pagination-list{list-style-type:none;margin:0;padding:0;text-align:center}
+.page-item{display:inline-block;height:3rem;padding:0 1.2rem;font-size:2rem;line-height:1.4;border:1px solid#66ccff}
+.page-item:nth-of-type(1){border-bottom-left-radius:.25rem;border-top-left-radius:.25rem}
+.page-item:nth-of-type(2){color:#66ccff}
+.page-item:nth-of-type(3){border-bottom-right-radius:.25rem;border-top-right-radius:.25rem}
+.disabled{color:#999}
+.page-link{text-decoration:none;color:#3399ff}
+/* FOOTER */ 
+footer{padding:2rem;text-align:center;color:#fff;background-color:#0066ff}
+}
+@media(min-width:320px){
+/* ALL POSTS */
+main{font-size:0.8rem}
+#blog{padding:0 1rem} 
+.posts{padding-top:0.7rem} 
+h1{font-size:1.1rem}
+.messtruncate{display:block}
+/* FOOTER */ 
+footer{padding-top:0.8rem}
+.page-item{height:3.8rem;padding:0 2rem;font-size:2rem;line-height:1.8}
+}
+@media(min-width:375px){
+/* ALL POSTS */
+main{font-size:1rem}
+.posts{padding-top:1rem} 
+h1{font-size:1.4rem}
+/* FOOTER */
+footer{padding-top:2rem}
+}
+}

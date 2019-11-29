@@ -1,0 +1,83 @@
+@media (min-width:0){
+    #cover__box-photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #cover__photo { width: 50px; }
+
+    #cover__box-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page-title {
+        font-size: 29px;
+        font-weight: bolder;
+        text-align: center;
+        color: #000;
+        /* color: var(--color-1); */
+    }
+
+    .cover__btn {
+        text-decoration: none;
+        margin-top: 8px;
+        padding: 5px 7px;
+        box-shadow: 0 8px 20px 0 rgba(0,0,0,.1);
+        font-weight: bolder;
+        font-size: 18px;
+        border-radius: 3px;
+        color: #000;
+        /* color: var(--color-1); */
+        background-color: rgba(255,255,255,.2);
+    }
+}
+@media (min-width:230px) {
+    main { height:100%; padding-top: 64px; font-size: 12px; }
+    #wrapper { padding: 16px 8px; background-color:#999; }
+    .alert-danger { padding: 4px; color: #fff; background-color: #DC3545; }
+    .page-title { text-align: center; font-size: 20px; margin-bottom: 8px; }
+    .cover__btn { padding: 5px 16px; font-size: 20px; }
+}
+@media (min-width:320px) {
+    main { font-size: 15px; }
+    #wrapper { padding: 24px 32px; }
+    .alert-danger { padding: 6px; }
+    #cover__photo { width: 100px; }
+    .page-title { font-size: 24px; }
+    .cover__btn { padding: 5px 16px; font-size: 24px; }
+}
+@media (min-width:576px) {
+    main { font-size: 16px; }
+    #wrapper { padding: 32px; }
+    .alert-danger { padding: 7px; }
+    #cover__photo { width: 150px; }
+    .page-title { font-size: 30px; }
+    .cover__btn { font-size: 28px; }
+
+}
+@media(min-width:768px) {
+    #cover__box-info { justify-content: center; }
+    .page-title { font-size: 40px; }
+    .alert-danger { padding: 8px; }
+}
+
+@media (min-width:992px) {
+    #wrapper { width:80%; margin:0 auto; padding: 48px; border-radius: 4px; box-shadow:0px 8px 20px 10px rgba(0, 0, 0, .1); }
+}
+
+@media (min-width:1200px) {
+    main{ font-weight: 400; font-style: normal; font-size: 18px; line-height: 1.58; letter-spacing: -.003em; }
+    #wrapper { width: 60%; }
+}
+
+@media (min-width:1200px) {
+    #wrapper { width: 40%; }
+}
+
+@media(min-width:1600px) {
+    #wrapper { width: 35%; }
+}

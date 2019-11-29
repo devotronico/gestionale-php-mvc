@@ -1,0 +1,43 @@
+[
+    {
+        "title": "Linguaggi di programmazione",
+        "info": "Questo sito è realizzato in html css e javascript per il lato frontend<br> mentre il backend è stato realizzato con php e mysql.<br>Al fine di migliorare le prestazioni e avere maggior controllo sul codice<br>ho evitato di utilizzare CSM(es. Wordpress), framework(es. Angular, Laravel) o librerie(es. Jquery, Bootstrap)<br>che facilitano lo sviluppo ma di contro appesantiscono le pagine in fase di caricamento."
+    },
+    {
+        "title": "Javascript VS Jquery",
+        "info": "Nella programmazione lato client ho utilizzato esclusivamente il linguaggio Javascript<br>senza appoggiarmi alla libreria Jquery. Questa scelta è dovuta dal fatto che<br>nonostante Jquery consente di scrivere meno codice ed è di più facile utilizzo,<br>è comunque una libreria che pesa nel caricamento della pagina,<br>inoltre col tempo può diventare obsoleta o non più supportata."
+    },
+    {
+        "title": "Database",
+        "info": "Per avere accesso ai dati del database ho utilizzato l'estensione PDO del linguaggio PHP.<br>PDO consente di interagire con le diverse versioni di SQL e database più diffusi.<br>Inoltre offre maggiore sicurezza da attacchi incentrati sull’iniezione di SQL malevolo."
+    },
+    {
+        "title": "OOP",
+        "info": "La logica per la scrittura del codice è avvenuta utilizzando il paradigma <a class='about-link' href='https://it.wikipedia.org/wiki/Programmazione_orientata_agli_oggetti' target='_blank'>OOP</a> (Object Oriented Programming)<br>implementando dove necessario meccanismi come l' incapsulamento, l' ereditarietà e il polimorfismo.<br>Questo consente di scrivere un codice più chiaro, ordinato e riutilizzabile<br>e si integra perfettamente con il pattern MVC."
+    },
+    {
+        "title": "Modello di progettazione",
+        "info": "Come modello di progettazione ho implementato il pattern <a class='about-link' href='http://html.it/pag/18299/il-pattern-mvc/' target='_blank'>MVC</a> (Model View Controller).<br>Utilizzando questo approccio allo sviluppo web otteniamo un codice più mantenibile e espandibile,<br>che richiede sessioni minori per correggere gli errori e inoltre agevola il lavoro in team."
+    },
+    {
+        "title": "Routing",
+        "info": "per ragioni di SEO e quindi di una migliore indicizzazione sui motori di ricerca<br>ho scelto di riscrivere gli URL dinamici in statici<br>Gli URL statici offrono una struttura di logica a cartelle e parole chiave descrittive del contenuto di ogni pagina<br>e sono più user-friendly poiché si può capire il contenuto della pagina semplicemente guardando la stringa dell'URL statico."
+    },
+    {
+        "title": "Caricamento dinamico",
+        "info": "La maggior parte degli elementi della pagina vengono caricati dinamicamente<br>dove lo scroll del mouse posiziona la vista sulla pagina<br>In questo modo la pagina non viene caricata interamente alla sua richiesta ma<br>caricherà solo la porzione di pagina che si sta visualizzando<br>Questo metodo incrementa notevolmente la velocità di caricameno delle pagine."
+    },
+    {
+        "title": "Supporto per diversi dispositivi",
+        "info": "Per adattare il sito a diversi tipi di dispositivi mobile e desktop<br>non mi sono limitato a utilizzare le media query del css<br>ma ho implementato via javascript e php un sistema che rileva la tipologia di dispositivo su cui è aperto il sito,<br>In base al dispositivo vengono caricati file e codice specifici per esso.<br>Questa impostazione consente di programmare in modo più specifico per i diversi dispositivi,<br>portando a un' ottimizzazione del codice, incremento delle prestazione e miglioramento dell'esperienza utente."
+    },
+    {
+        "title": "Animazioni",
+        "info": "Le animazioni sono ottenute tramite l' elemento canvas introdotto in html5.<br>Nella home page ci sono più canvas che attivano e disattivano le animazioni al loro interno<br>a seconda della canvas che si sta visualizzando."
+    },
+    {
+        "title": "Prossimi obiettivi",
+        "info": "[1]caricamento dinamico anche delle pagine del blog.<br>[2]filtro per il controllo dei commenti degli utenti.<br>[3]inserimento del campo di ricerca nel blog.<br>[4]integrazione con i social network.<br>[5]implementazione di un sistema di ecommerce.<br>[6]inserimento di annunci pubblicitari."
+    }
+]
+

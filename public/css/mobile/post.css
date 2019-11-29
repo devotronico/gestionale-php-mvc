@@ -1,0 +1,47 @@
+/* route = [post/id] */
+/* tpl   = [post.single] */
+@media screen and (orientation: portrait){  
+@media(min-width:0){}
+@media(min-width:230px) {
+/* SINGLE POST */
+main{font-size:0.7rem;background-color:green}
+#post{padding:0.5rem;background-color:#fff}
+#post article{width:100%;margin:0 auto;text-align:center}
+#post h1{font-size:1rem}
+time{color:#669999}
+#post img{width:100%;} 
+#post-text{padding:.5rem 0 0 0;text-align:left}
+a{text-decoration:none;color:#0066ff}
+.button{padding:.5rem 1rem;border:none;border-radius:.25rem;color:#fff;background-color:#66ccff}
+/* TEXTAREA */
+#textarea-container{padding:1rem;text-align:center;background-color:#fff}
+form{width:100%;margin:0 auto}
+#textarea-container h1{padding-top:1rem;border-top: 1px solid rgba(0, 0, 0, .1);font-size:1rem;color:#336666}
+textarea{width:100%;resize:none}
+#textarea-btn{margin-top:1rem;border:none;color:#fff;background-color:#6baeff} 
+#textarea-btn:hover{background-color:green} 
+/* COMMENTS */
+#comments-container{background-color:#fff}
+.centertitle{text-align:center;margin:0;padding:1rem;font-weight:bolder;color:#336666}
+.comment-box{padding:.3rem;border-top:1px solid rgba(0, 0, 0, .1)}
+.comment-head{padding:1px;background-color:#fff}
+.comment-head a{text-decoration:none}
+.comment-head img{width:36px;border-radius:50%}
+.comment-btn-delete{float:right;width:30px;height:30px;border-radius:.25rem;text-align:center;line-height:2;color:#fff;background-color:#66ccff}
+.comment-btn-delete:hover{background-color:red}
+.clear{clear:both}
+.comment-body{padding:6px;background-color:#fff}
+}
+@media(min-width:320px){
+main{font-size:0.8rem}
+#post h1{font-size:1.2rem}
+}
+@media(min-width:375px){
+main{font-size:0.9rem}
+#post h1{font-size:1.5rem}
+#post-text{padding:1rem .5rem}
+}
+} 
+
+
+

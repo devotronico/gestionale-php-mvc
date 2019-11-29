@@ -1,0 +1,31 @@
+[
+    {
+        "site": "github",
+        "socialAddress": "github.com/redeluni",
+        "icon": "<i class='fab fa-github'></i>"
+        
+    },
+    {
+        "site": "codepen",
+        "socialAddress": "codepen.io/DanieleManzi/",
+        "icon": "<i class='fab fa-codepen'></i>"
+        
+    },
+    {
+        "site": "twitter",
+        "socialAddress": "twitter.com/JQALP",
+        "icon": "<i class='fab fa-twitter'></i>"
+        
+    },
+    {
+        "site": "linkedin",
+        "socialAddress": "www.linkedin.com/in/daniele-manzi-b57529110/",
+        "icon": "<i class='fab fa-linkedin'></i>" 
+    },
+    {
+        "site": "facebook",
+        "socialAddress": "www.facebook.com/daniele.manzi.83",
+        "icon": "<i class='fab fa-facebook'></i>"
+    }
+]
+

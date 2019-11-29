@@ -1,0 +1,52 @@
+[
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "date": "20190623194704",
+            "code": -15,
+            "exception": "Exception",
+            "file": "C:\\xampp\\htdocs\\workspace\\gestionale-custom\\app\\Controllers\\SigninController.php",
+            "line": 66,
+            "function": "signinAccess",
+            "class": "App\\Controllers\\SigninController"
+        },
+        "body": [
+            {
+                "dom": "email",
+                "message": "Il campo email è vuoto"
+            },
+            {
+                "dom": "password",
+                "message": "Il campo password è vuoto"
+            }
+        ]
+    },
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "date": "20190623194730",
+            "code": -15,
+            "exception": "Exception",
+            "file": "C:\\xampp\\htdocs\\workspace\\gestionale-custom\\app\\Controllers\\SignupController.php",
+            "line": 50,
+            "function": "store",
+            "class": "App\\Controllers\\SignupController"
+        },
+        "body": [
+            {
+                "dom": "name",
+                "message": "Il campo nome è vuoto"
+            },
+            {
+                "dom": "email",
+                "message": "Il campo email è vuoto"
+            },
+            {
+                "dom": "password",
+                "message": "Il campo password è vuoto"
+            }
+        ]
+    }
+]

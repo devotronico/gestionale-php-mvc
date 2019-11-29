@@ -1,0 +1,61 @@
+[
+    {
+        "title": "Meteo",
+        "icon": "<i class='fas fa-sun'></i>",
+        "info": "Previsioni del meteo aggiornate ogni 3 ore per 5 giorni",
+        "link": "https://github.com/redeluni/meteo",
+        "linkText": "codice"
+    },
+    {
+        "title": "Router",
+        "icon": "<i class='fas fa-unlink'></i>",
+        "info": "Template di base per sviluppare con il pattern MVC e routing di url statici",
+        "link": "https://github.com/redeluni/router", 
+        "linkText": "codice"
+    },
+    {
+        "title": "Ninja Bit",
+        "icon": "<i class='fas fa-gamepad'></i>",
+        "info": "Un videogame che mescola uno stile grafico 8bit con un gameplay moderno",
+        "link": "/home/download",
+        "linkText": "scarica"
+    },
+    {
+        "title": "Phone App",
+        "icon": "<i class='fab fa-android'></i>",
+        "info": "Videogame per sistemi Android utilizzabile su pc tramite emulatore",
+        "link": "https://www.apkmonk.com/app/com.Manzi_Development.the_hidden_canvas/",
+        "linkText": "visita"
+    },
+    {
+        "title": "Wordpress",
+        "icon": "<i class='fab fa-wordpress'></i>",
+        "info": "Sito con negozio online creato con Wordpress e WooCommerce",
+        "link": "https://github.com/redeluni/wp-stampa3d",
+        "linkText": "codice"
+    },
+    {
+        "title": "Codepen",
+        "icon": "<i class='fab fa-codepen'></i>",
+        "info": "Vari script per testare e migliorare lo sviluppo lato fronted",
+        "link": "https://codepen.io/DanieleManzi/",
+        "linkText": "visita"
+    },
+    {
+        "title": "Cryptocoin",
+        "icon": "<i class='fab fa-bitcoin'></i>",
+        "info": "Dati in tempo reale sulle criptovalute con le API di coinmarketcap",
+        "link": "https://github.com/redeluni/cryptocoin",
+        "linkText": "codice"
+    },
+    {
+        "title": "freeCodeCamp",
+        "icon": "<i class='fab fa-free-code-camp'></i>",
+        "info": "I miei progressi raggiunti in html/css/javascript su freeCodeCamp",
+        "link": "https://www.freecodecamp.org/fcc836b4861-6faa-4600-a347-dd7eab1f4eb0",
+        "linkText": "visita"
+    }
+]
+
+
+

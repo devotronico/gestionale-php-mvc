@@ -1,0 +1,36 @@
+[
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "request": "async",
+            "date": "20190714211002",
+            "code": -20,
+            "exception": "Exception",
+            "file": "C:\\xampp_7_3_6\\htdocs\\workspace\\gestionale-custom\\helpers\\Validation.php",
+            "line": 24,
+            "function": "__construct",
+            "class": "Helpers\\Validation"
+        },
+        "body": {
+            "message": "il parametro passato non è un array o un oggetto"
+        }
+    },
+    {
+        "head": {
+            "status": "error",
+            "section": "auth",
+            "request": "async",
+            "date": "20190714211032",
+            "code": -20,
+            "exception": "Exception",
+            "file": "C:\\xampp_7_3_6\\htdocs\\workspace\\gestionale-custom\\helpers\\Validation.php",
+            "line": 24,
+            "function": "__construct",
+            "class": "Helpers\\Validation"
+        },
+        "body": {
+            "message": "il parametro passato non è un array o un oggetto"
+        }
+    }
+]
